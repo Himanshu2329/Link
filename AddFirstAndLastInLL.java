@@ -60,8 +60,17 @@ public class AddFirstAndLastInLL {
 
     public static void main(String[] args) {
         AddFirstAndLastInLL list = new AddFirstAndLastInLL();
-        list.addFirst("hey");
-        list.addFirst("bro");
+        list.addFirst("is");
+        list.addFirst("a");
+        list.printList();
+        
+        list.addLast("list");
+        list.printList();
+        
+        list.addFirst("this");
+        list.printList();
+
+        list.addLast("Thanks");
         list.printList();
     }
 }
